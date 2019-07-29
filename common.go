@@ -41,7 +41,7 @@ func updateDiscordStatus() {
 			Name: fmt.Sprintf("%d downloaded pictures", countDownloadedImages()),
 			Type: discordgo.GameTypeWatching,
 		},
-		Status: "online",
+		Status: "invisible",
 	})
 }
 
